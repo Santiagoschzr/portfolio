@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A collection of work in machine learning, data, and software development.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Projects | Santiago Sánchez Reyes</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23000000%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2248%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2Cserif%22%20font-size%3D%2248%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header container">
+    <nav aria-label="Main navigation"><a href="index.html">About</a>
+<a href="writing.html">Writing</a>
+<a href="projects.html" aria-current="page">Projects</a></nav>
+  </header>
+  <main id="main" class="container">
+    <header class="page-heading">
+      <h1>Projects</h1>
+      <p class="subtitle">Professional, personal, and academic work.</p>
+    </header>
+    <article class="project">
+      <h2>Credit approval classifier</h2>
+      <p class="meta">Personal project · 2026</p>
+      <p>A reproducible pipeline comparing six models for credit approval classification.</p>
+      <details>
+        <summary>Details<span class="visually-hidden">: Credit approval classifier</span></summary>
+        <div class="detail-content"><p>I built a reproducible machine learning pipeline to compare six approaches to credit
+          approval classification, from logistic regression to a stacking ensemble.</p>
+        <ul>
+          <li>Applied SMOTEENN within each cross-validation fold to prevent resampling leakage.</li>
+          <li>Tracked experiments with MLflow and tuned models with Optuna.</li>
+          <li>The best model achieved an AUC-ROC of 0.91 and a Gini coefficient of 0.82 in the project evaluation.</li>
+        </ul>
+        <h3>Models, evaluation, and interpretability</h3>
+          <p>I compared logistic regression, random forest, XGBoost, LightGBM, CatBoost,
+            and a stacking ensemble using 10-fold cross-validation. Evaluation included KS,
+            PR-AUC, and expected calibration error, alongside AUC-ROC and Gini.</p>
+          <p>I used SHAP for model explanations and included a disparate-impact analysis.</p>
+        </div>
+      </details>
+    </article>
+<article class="project">
+      <h2>Inventory reallocation and retail analytics</h2>
+      <p class="meta">Professional work · Grupo dportenis · 2025–2026</p>
+      <p>Python and SQL workflows that recommend product transfers between stores.</p>
+      <details>
+        <summary>Details<span class="visually-hidden">: Inventory reallocation and retail analytics</span></summary>
+        <div class="detail-content"><p>I developed Python and SQL workflows that recommend product transfers between stores
+          using sales and inventory data, replacing recurring manual analysis.</p>
+        <ul>
+          <li>Built data cleaning and transformation pipelines for analysis and validation.</li>
+          <li>Automated reporting on spending, margins, and inventory.</li>
+          <li>Developed a supervised classification pipeline to categorize a product catalog from labeled examples.</li>
+        </ul></div>
+      </details>
+    </article>
+<article class="project">
+      <h2>WorkSense</h2>
+      <p class="meta">Team project · 2025</p>
+      <p>A sprint-planning platform with an AI assistant for risk detection.</p>
+      <details>
+        <summary>Details<span class="visually-hidden">: WorkSense</span></summary>
+        <div class="detail-content"><p>I co-built a web platform for backlog creation and sprint planning, with an AI assistant
+          that identifies risks and suggests actions based on sprint data.</p>
+        <p>My contributions covered the frontend, API integration, and interaction design.</p></div>
+      </details>
+    </article>
+<article class="project">
+      <h2>Machine learning for digital health</h2>
+      <p class="meta">Academic project · Aalto University · 2025</p>
+      <p>Interpretable text classifiers exploring signals of psychological stress.</p>
+      <details>
+        <summary>Details<span class="visually-hidden">: Machine learning for digital health</span></summary>
+        <div class="detail-content"><p>I built interpretable text classifiers to explore signals of psychological stress in
+          Reddit and X posts.</p>
+        <p>The project used TF-IDF features with logistic regression and support vector machines,
+          evaluated through precision, recall, and F1.</p></div>
+      </details>
+    </article>
+<article class="project">
+      <h2>E-commerce administration tools</h2>
+      <p class="meta">Professional work · Solemti · 2025</p>
+      <p>Administration tools for an e-commerce app with 500,000+ downloads.</p>
+      <details>
+        <summary>Details<span class="visually-hidden">: E-commerce administration tools</span></summary>
+        <div class="detail-content"><p>I contributed to administration tools for a mobile e-commerce app with more than
+          500,000 downloads in Mexico.</p>
+        <ul>
+          <li>Developed modules for translations, payments, notifications, and access roles.</li>
+          <li>Built reusable Angular and PrimeNG components with RxJS and internationalization support.</li>
+          <li>Implemented JWT authentication and contributed NestJS API endpoints.</li>
+        </ul></div>
+      </details>
+    </article>
+  </main>
+  <footer class="container">
+    <nav aria-label="Contact links">
+      <a href="mailto:santiagosa2003@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/santischzr0304/">LinkedIn</a>
+      <a href="https://github.com/santiagoschzr">GitHub</a>
+    </nav>
+    <p>© 2026 Santiago Sánchez Reyes</p>
+  </footer>
+</body>
+</html>
